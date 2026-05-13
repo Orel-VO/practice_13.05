@@ -149,10 +149,10 @@ int main() {
 
     Room* rooms[ROOM_COUNT];
     rooms[0] = new Room("Переговорка Толстой", "переговорная", 12);
-    rooms[1] = new Room("Кухня 3 этаж",        "кухня",         20);
-    rooms[2] = new Room("Open space Backend",   "рабочая зона",  40);
-    rooms[3] = new Room("Зона отдыха",          "отдых",         15);
-    rooms[4] = new Room("Серверная",            "техническая",    5);
+    rooms[1] = new Room("Кухня 3 этаж", "кухня", 20);
+    rooms[2] = new Room("Open space Backend", "рабочая зона", 40);
+    rooms[3] = new Room("Зона отдыха", "отдых", 15);
+    rooms[4] = new Room("Серверная", "техническая", 5);
 
     Guide guide("Алексей");
 
